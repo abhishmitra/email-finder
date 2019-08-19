@@ -131,7 +131,7 @@ function onSubmit(e) {
   result.html('');
 
   $('#result').html;
-
+  alert(JSON.stringify(data));
   $.ajax({
     url: "/find",
     method: "POST",
